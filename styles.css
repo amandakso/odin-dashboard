@@ -73,3 +73,11 @@
     width: 64px;
     height: auto;
 }
+
+button {
+    padding: 10px 24px;
+    border-radius: 12px;
+    background-color: #89CFF0;
+    min-width: 100px;
+    border: none;
+}
