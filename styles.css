@@ -7,7 +7,6 @@ h3, h4, h5 {
     margin-bottom: 5px;
 }
 .container {
-    background-color: #CCCCFF;
     height: 100vh;
     display: grid;
     grid-template: 1fr 3fr / 1fr 4fr;
@@ -22,15 +21,20 @@ h3, h4, h5 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: #ADD8E6;
+    background-color: #5DA2D5;
 }
 
 .nav {
     display: flex;
     flex-direction: column;
 }
+
+.dash {
+    color: #ffffff;
+}
 .nav-item {
     padding-bottom: 20px;
+    color: #ffffff;
 }
 
 .sidebar {
@@ -40,7 +44,7 @@ h3, h4, h5 {
     grid-template-areas:
     "top-left top-right"
     "bottom-left bottom-right";
-    background-color: #AADBC1;
+    background-color: #FFFFFF;
     z-index: 1;
 
 }
@@ -67,6 +71,7 @@ h3, h4, h5 {
     padding-left: 20px;
     height: 30px;
     width: 700px;
+    background-color: #ECECEC;
 }
 
 
@@ -124,11 +129,11 @@ h3, h4, h5 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 20px;
-    background-color: pink;
+    background-color: #90CCF4;
 }
 .projects, .right-content {
     padding: 10px;
-    background-color: gray;
+    background-color: #90CCF4;
 }
 .cards {
     display: grid;
@@ -140,8 +145,8 @@ h3, h4, h5 {
 
 .card {
     height: 200px;
-    border-left: 10px solid yellow;
-    background-color: white;
+    border-left: 10px solid #F3D250;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     display: grid;
@@ -155,14 +160,14 @@ h3, h4, h5 {
 
 
 .sections {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px 30px;
     margin-bottom: 40px;
 }
 
 .section {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #ECECEC;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -179,7 +184,7 @@ h3, h4, h5 {
 
 
 .users {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 10px 20px;
     margin-bottom: 40px;
@@ -219,7 +224,7 @@ button {
     padding: 8px 30px;
     border-radius: 25px;
     font-size: 1rem;
-    background-color: #89CFF0;
+    background-color: #5DA2D5;
     margin-right: 30px;
     border: none;
 }
